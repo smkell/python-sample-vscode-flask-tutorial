@@ -16,10 +16,10 @@ strategy:
       imageName: "ubuntu-latest"
     Python37_linux:
       python.version: '3.7'
-      imagenName: "ubuntu-latest"
+      imageName: "ubuntu-latest"
     Python37_windows:
       python.version: '3.7'
-      imagenName: "windows-latest"
+      imageName: "windows-latest"
 
 pool:
   vmImage: $(imageName)
